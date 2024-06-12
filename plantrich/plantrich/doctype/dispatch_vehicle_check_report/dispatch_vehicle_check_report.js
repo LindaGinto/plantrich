@@ -68,7 +68,7 @@ frappe.ui.form.on('DISPATCH VEHICLE CHECK REPORT', {
             frm.set_value('total', 0);
         }
 
-        // Refresh the fields
+        // Refresh the fields to update status
         frm.refresh_field('value');
         frm.refresh_field('total');
     }
